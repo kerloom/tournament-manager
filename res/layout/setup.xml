@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup 
+        android:id="@+id/rgType"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+        
+    <RadioButton
+        android:id="@+id/rbDirectElimination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="TRUE"
+        android:text="Direct Elimination" />
+    
+    </RadioGroup>
+
+        <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="@android:color/darker_gray"/>
+        
+        <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+    
+	    <ImageView
+	        android:id="@+id/ivMenos"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/abajo_rojo" />
+    
+	    <TextView
+	         android:id="@+id/tvNumEquipos"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:minWidth="45dp"
+	         android:text="4" android:gravity="center" android:textStyle="bold"  android:textSize="24sp">
+
+	     </TextView>
+	     
+	    <ImageView
+	        android:id="@+id/ivMas"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/arriba_verde" />
+
+	 <LinearLayout
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:gravity="left"
+	     android:orientation="vertical" 
+	     android:paddingLeft="20dp" >
+	     
+	    <CheckBox
+	        android:id="@+id/chkRandom"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/sRandom"
+	        android:checked="true"/>"
+	  </LinearLayout>
+	      
+	       
+	</LinearLayout>
+        
+            
+            	 <LinearLayout
+	     android:xmlns="http://schemas.android.com/apk/res/android"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:gravity="center_horizontal"
+	     android:orientation="vertical" >
+	    
+	    <Button 
+			android:id="@+id/bSelectTournament"
+			android:layout_width="wrap_content"
+			android:minWidth="120dp"
+			android:layout_height="wrap_content"
+			android:text="Select" />
+	
+	    </LinearLayout>
+    
+</LinearLayout>

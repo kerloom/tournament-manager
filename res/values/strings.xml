@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome">Welcome to Tournament Manager!</string>
+    <string name="app_name">Tournament Manager</string>
+    <string name="sNumEquipos">Number of Teams</string>
+    <string name="sEquipo">Team</string>
+    <string name="sAceptar">Done</string>
+    <string name="sEstadisticas">Team Statistics</string>
+    <string name="sCambiarNombre">Change Name</string>
+    <string name="sCancelar">Cancel</string>
+    <string name="sNuevoNombre">Please Enter a Name</string>
+    <string name="sRandom">Randomize</string>
+    <string name="sPuntos">Score</string>
+    <string name="sMarcadorEstablecido">Score Set</string>
+    <string name="sEmpateOFaltaPartido">Please make sure there aren\'t any draws, and that every game is set.</string>
+    <string name="sGanador">Tournament Champion</string>
+    <string name="sJuegosJugados">Games Played:</string>
+    <string name="sJuegosGanados">Games Won:</string>
+    <string name="sJuegosPerdidos">Games Lost:</string>
+    <string name="sJuegosEmpatados">Games Drawn:</string>
+    <string name="sPuntosFavor">Points Scored:</string>
+    <string name="sPuntosContra">Points Against:</string>
+    <string name="sSiguiente">Next</string>
+    <string name="sAtras">Back</string>
+    <string name="sFinal">Final</string>
+    <string name="sSemiFinal">Semi-Finals</string>
+    <string name="sCuartosFinal">Quarter-Finals</string>
+    <string name="sOctavosFinal">Eighth-Finals</string>
+    <string name="sDieciseisFinal">16th-Finals</string>
+    <string name="sTreintaydosFinal">32th-Finals</string>
+    <string name="sUpArrow">Up Arrow</string>
+    <string name="sDownArrow">Down Arrow</string>
+    <string name="sEquipo">Team</string><string name="sCero">0</string>
+    <string name="sFaltaPartido">Please make sure that all games are set before advancing stages.</string>
+    
+        
+        
+</resources>

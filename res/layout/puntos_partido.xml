@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvNombreE1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@String/sEquipo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    
+	    <LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="horizontal" >
+  
+	        <ImageView
+	            android:id="@+id/ibMenosE1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@String/sDownArrow"
+	            android:src="@drawable/abajo_rojo" />
+	        
+	    
+		    <TextView
+		         android:id="@+id/tvPuntosE1"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:minWidth="50dp"
+		         android:text="@String/sCero" android:gravity="center" android:textStyle="bold"  android:textSize="24sp">
+	
+		     </TextView>
+
+		    <ImageView
+		        android:id="@+id/ibMasE1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:contentDescription="@String/sUpArrow"
+		        android:src="@drawable/arriba_verde" />
+		    
+    	</LinearLayout>
+   	    
+       	<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="@android:color/darker_gray"/>
+	   
+    <TextView
+       android:id="@+id/tvNombreE2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@String/sEquipo"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+    
+    <ImageView
+        android:id="@+id/ibMenosE2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@String/sDownArrow"
+        android:src="@drawable/abajo_rojo" />
+    
+	    <TextView
+	         android:id="@+id/tvPuntosE2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:minWidth="50dp"
+	         android:text="@String/sCero" android:gravity="center" android:textStyle="bold"  android:textSize="24sp">
+
+	     </TextView>
+	    
+	    <ImageView
+	        android:id="@+id/ibMasE2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/s"
+	        android:src="@drawable/arriba_verde" />
+	    
+   </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>
